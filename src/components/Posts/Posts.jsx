@@ -108,7 +108,7 @@ const handleDelete = async(postId) => {
                   <h2 className="title">{item.title}</h2>
                   <div className='blog'>
                     <div className='photo'>
-                      <img src={`/uploads/${item.photo}`} height={150} width={250}/>
+                      <img src={`https://recipebook-backend-gc42.onrender.com/uploads/${item.photo}`} height={150} width={250}/>
                     </div>
                     <div className='content'>{item.content}</div>
                   </div>
