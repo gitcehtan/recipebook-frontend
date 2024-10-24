@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100vw;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 60%;
+    background-color: lightgoldenrodyellow;
+    border: 0.1rem solid black;
+    box-shadow: .2rem 0.2rem 1rem .2rem black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    gap: 0.5rem;
+}
+
+input{
+    border: none;
+    outline: none;
+    border-bottom: .05rem solid black;
+    height: 1.5rem;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.1rem;
+}
+label{
+    text-align: left;
+}
+
+.signup-btn{
+    width: 70%;
+    height: 1.5rem;
+    background-color: rgb(61, 69, 17);
+    color: whitesmoke;
+    cursor: pointer;
+    transition: .1s all ease;
+    &:hover{
+        background-color: rgb(155, 174, 45);
+        /* color: black; */
+    }
+}
+
+/* Posts design */
+
+
+.posts-page{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     background-color: whitesmoke;
+     /* height: 100vh; */
+     width: 100%;
+     height: 100%;
+}
+
+.logout{
+    margin-left: 90vw;
+    /* margin-top: -10rem; */
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border: 0.1rem solid black;
+    border-radius: 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 5rem;
+    width: 5rem;
+    &:hover{
+        background-color: lightgray;
+    }
+}
+
+.posts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    gap: 0.5rem;
+}
+
+.post{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+    /* border: 1px solid red; */
+    border-radius: 1rem;
+    width: 90vw;
+    padding: 1rem;
+    background-color: rgb(18, 17, 17);
+    color: white;
+    gap: 0.5rem;
+}
+
+.blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.2rem;
+}
+
+.content{
+    margin: auto;
+    text-align: left;
+    white-space: pre-wrap;
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Create Post */
+
+
+.create{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-form{
+    height: 70vh;
+    width: 50vw;
+
+}
+.create-form > input{
+    width: 80%;
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+.create-form > input[type="file"]{
+    cursor: pointer;
+}
+.create-form > button{
+    cursor: pointer;
+    /* padding: 0.5rem; */
+    height: 2rem;
+    width: 80%;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    box-shadow: 0.1rem 0.1rem 0.01rem 0.01rem black;
+    font-weight: 700;
+    
+    &:hover{
+      background-color: whitesmoke;
+    }
+}
+
+textarea {
+    width: 80%;
+    border: none;
+    outline: none;
+    border-bottom: 0.1rem solid black;
+    resize: none;
+    padding: 0.5rem;
+
+}
+
+
+.deleteBtn{
+    width: 6rem;
+    height: 2rem;
+    border: 0.1rem solid darkred;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    margin-left: 90%;
+    cursor: pointer;
+    box-shadow: 0.01rem 0.01rem 0.01rem 0.01rem black;
+    transition: 0.2s all ease;
+    &:hover{
+        background-color: rgb(170, 21, 21);
+        color: white;
+    }
+}
+
+
