@@ -57,7 +57,7 @@ const handleDelete = async(postId) => {
       // console.log(e);
      
     try {
-      const url = "http://localhost:8080/posts/delete";
+      const url = "https://recipebook-backend-gc42.onrender.com/posts/delete";
       const response = await fetch(url,
         {
           method: "DELETE",

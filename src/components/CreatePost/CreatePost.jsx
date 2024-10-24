@@ -53,7 +53,7 @@ const CreatePost = () => {
     formData.append("content",post.content);
 
     try {
-      const url = "http://localhost:8080/posts/create";
+      const url = "https://recipebook-backend-gc42.onrender.com/posts/create";
       const Headers = {
        
           "Authorization" : localStorage.getItem('token'),
