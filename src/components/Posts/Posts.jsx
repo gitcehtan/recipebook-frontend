@@ -26,7 +26,7 @@ const Posts = () => {
 
   const fetchPosts = async () => {
     try {
-      const url  = "http://localhost:8080/posts";
+      const url  = "https://recipebook-backend-gc42.onrender.com/posts";
       const headers = {
         headers: {
           "Authorization" : localStorage.getItem('token')
